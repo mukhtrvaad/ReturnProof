@@ -1,0 +1,21 @@
+{
+  "name": "returnproof",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Educational blockchain prototype for equipment rental evidence records.",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "hardhat": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
